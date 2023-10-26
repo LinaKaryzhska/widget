@@ -1,6 +1,6 @@
 (function() {
     // Configuration
-    const iframeSrc = 'https://backend.my-domain.com/index.html';
+    const iframeSrc = 'https://cdn.jsdelivr.net/gh/LinaKaryzhska/widget@main/dist/index.html';
     const iframeId = 'my-chat-widget-iframe';
   
     if (document.getElementById(iframeId)) {
