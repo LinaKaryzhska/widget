@@ -13,7 +13,7 @@ export default {
       output: {
         entryFileNames: `assets/main.js`,
         assetFileNames: (assetInfo) => {
-          console.log(assetInfo.name);
+          console.log(assetInfo.name, "assetInfo");
           if (assetInfo.name === 'index.css') return 'assets/styles.css';
           return assetInfo.name;
         },
